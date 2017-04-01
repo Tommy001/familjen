@@ -1,0 +1,32 @@
+name = Familjen
+description = Temat "Familjen" använder Bootstrap som huvudtema.
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = css/stilmall.css
+stylesheets[all][] = css/bildgalleri.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+; Information added by Drupal.org packaging script on 2016-11-02
+version = "7.x-3.8"
+core = "7.x"
+project = "bootstrap"
+datestamp = "1478114647"

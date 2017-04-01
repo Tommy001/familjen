@@ -1,0 +1,31 @@
+h1, .h1 {
+    font-size: 24px !important;
+}
+h2, .h2 {
+    font-size: 20px !important;
+}
+h3, .h3 {
+    font-size: 16px !important;
+}
+.node-recipe{
+  position:relative;
+}
+.recipe-summary {
+    position:absolute !important;
+    top:0 !important;
+    right:0 !important;
+    width: 15em;
+    margin: 0;
+    padding: 0;
+    font-size: 1.0em;
+}
+footer{
+  border-top:solid 1px #eaeaea;
+  margin-top: 20px;
+}
+.comment-add{
+  display: none !important;
+}
+.views-submit-button{
+  display:none;
+}

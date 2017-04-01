@@ -1,0 +1,12 @@
+name: Transliterate Twig Filter
+description: Creates a twig filter for transliterating strings
+package: artur-thiessen.de
+
+type: module
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2016-10-19
+version: '7.x-1.1'
+core: '7.x'
+project: 'transliterate'
+datestamp: 1476892288
